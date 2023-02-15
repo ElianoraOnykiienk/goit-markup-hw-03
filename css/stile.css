@@ -10,7 +10,7 @@
  body {
      background: var(--color-main);
      color: var(--color-brand);
-     font-family: 'Roboto';
+     font-family: 'Roboto' sans-serif;
  }
 
  ul {

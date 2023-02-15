@@ -67,7 +67,7 @@
      text-decoration: none;
      color: var(--color-brand);
      display: flex;
-     margin: 76px;
+     margin-left: 76px;
  }
 
  .test-link:hover,
@@ -187,8 +187,8 @@
  /* инструкция */
 
  .section {
-     padding-top: 120px;
-     padding-bottom: 0;
+     padding-top: 0;
+     padding-bottom: 120px;
  }
 
  .instruction {
@@ -250,7 +250,7 @@
 
  .employees {
      background: #F4F4FD;
-     padding-top: 120px;
+     padding-top: 0px;
      padding-bottom: 120px;
  }
 

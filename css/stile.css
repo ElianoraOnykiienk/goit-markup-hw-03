@@ -360,15 +360,15 @@
      box-sizing: border-box;
      border-radius: 4px;
      text-decoration: none;
-     padding-top: 72px;
+     padding-top: 96px;
      padding-bottom: 120px;
  }
 
  .item-portfolio {
      display: flex;
-     padding-top: 96px;
-     padding-bottom: 72px;
      justify-content: center;
+     margin-top: 0;
+     margin-bottom: 72px;
  }
 
 
@@ -418,7 +418,8 @@
 
      padding-top: 32px;
      padding-bottom: 32px;
-     border: 1px solid #E7E9FC;
+     margin-left: 16px;
+     margin-right: 16px;
 
  }
 

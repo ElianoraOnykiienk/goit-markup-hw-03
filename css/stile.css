@@ -19,6 +19,12 @@
      margin: 0;
  }
 
+ img {
+     display: block;
+     max-width: 100%;
+     height: auto;
+ }
+
  /* шапка */
 
  .header {
@@ -235,9 +241,7 @@
 
  .link-img {
      display: flex;
-     max-width: 100%;
-     width: 360px;
-     height: 300px;
+
  }
 
  .link-img .img-link+.img-link {
@@ -393,11 +397,7 @@
      Padding: 12px 24px 12px 24px;
  }
 
- .link-box-portfolio {
 
-     padding-top: 32px;
-     padding-bottom: 32px;
- }
 
  .button-portfolio:hover,
  .button-portfolio:focus {
@@ -410,9 +410,17 @@
      display: flex;
      flex-wrap: wrap;
      gap: 48px 24px;
-
  }
 
+ .link-box {}
+
+ .link-box-portfolio {
+
+     padding-top: 32px;
+     padding-bottom: 32px;
+     border: 1px solid #E7E9FC;
+
+ }
 
  .links-portfolio {
      cursor: pointer;

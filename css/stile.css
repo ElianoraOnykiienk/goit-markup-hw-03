@@ -418,8 +418,9 @@
 
      padding-top: 32px;
      padding-bottom: 32px;
-     margin-left: 16px;
-     margin-right: 16px;
+     padding-left: 16px;
+     padding-right: 16px;
+     border: 1px solid #E7E9FC;
 
  }
 
